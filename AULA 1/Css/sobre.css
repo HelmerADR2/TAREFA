@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    background-color: black;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 200;
+    width: 100%;
+    
+    
+}
+
+
+nav .logo a{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 15rem;
+    display: flex;
+    padding-right: 710px;
+    
+   
+
+}
+.items{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 9px;
+    align-items: center;
+
+    
+    
+}
+
+nav ul li a{
+    align-items: center;
+    display: flex;
+    margin-right: 42px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-right: 10px;
+}
+
+
+
+.corpo .corpo-texto {
+    background-image: url(../img/PHOTOSHOPbigstock-d-Rendering-Cloud-Computing-267217441_1024X684.png); height: 15vh; width: 100%; top: 0%; left: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    display: flex;
+    color: white;
+    align-content: center;
+    top: 0%;
+    left: 0%;
+    align-items: baseline;
+    padding-top: 8rem;
+    padding-left: 45rem;
+    font-size: 35px;
+    
+}
+.corpo2 .corpo-texto2{
+    margin-top: 2rem;
+    margin-left: 12px;
+}
+
